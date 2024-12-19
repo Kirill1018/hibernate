@@ -1,0 +1,15 @@
+insert into customer (id, name) values (1, 'customer1');
+insert into customer (id, name) values (10, 'customer2');
+insert into customer (id, name) values (20, 'customer3');
+insert into program (id, name, customer_id) values (1, 'progr1cust1', 1);
+insert into program (id, name, customer_id) values (10, 'progr2cust1', 1);
+insert into program (id, name, customer_id) values (20, 'progr3cust1', 1);
+insert into program (id, name, customer_id) values (30, 'progr1cust2', 10);
+insert into program (id, name, customer_id) values (40, 'progr2cust2', 10);
+insert into program (id, name, customer_id) values (50, 'progr3cust2', 10);
+insert into program (id, name, customer_id) values (60, 'progr1cust3', 20);
+insert into program (id, name, customer_id) values (70, 'progr2cust3', 20);
+insert into program (id, name, customer_id) values (80, 'progr3cust3', 20);
+insert into application(id, name) values(1, 'application');
+insert into type(id, name) values(1, 'console app');
+insert into appl_type(appl_id, type_id) values(1, 1);
